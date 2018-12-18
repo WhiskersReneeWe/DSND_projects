@@ -7,7 +7,7 @@ This project is provided by Udacity and is in collaboration with FigureEight. In
 
 ## What's in this repo?
 
-* a demo of a Machine Learning python code - This is for my personal use before modulazing the code.
+* a demo of a Machine Learning (ML) python code - This is for my personal use before modulazing the code.
 * a process_data python script. The input and output are database filepath and a cleaned data set ready to be fed into a ML pipeline
 * a train_classifie python script. This script trains the MultipleOutputClassifier model so that it can classify new incoming messages.
 * a run.py model which deploys the python script to an online app using a given database.
@@ -17,13 +17,13 @@ This project is provided by Udacity and is in collaboration with FigureEight. In
 The process is standard.
 * Used Sqlalchemy to connect with a target database and query data from it.
 * After successful data retrieval, I wrote modulized functions to check missing data, tokenized text data.
-* The end product of this pipeline is a Machine Learning ready dataset that contains Training and Test data.
+* The end product of this pipeline is a ML ready dataset that contains Training and Test data.
 
 ## ML pipeline process
 
 * Other than standartd ML process, I used grid search to tune some of the hyperparameters.
-* __Note__: In order to save time, I only tuned two parameters. There are a lot more can be done to significantly improve the model perfomance.
-* The end product of this ML process will produce 36 categories on any text message.
+* __Note__: In order to save time, I only tuned two hyperparameters. There are a lot more can be done to significantly improve the model perfomance.
+* The end product of this ML ppeline process will produce 36 categories on any text message.
 * This script saves the trained model in a pickle file.
 
 ## Instructions on using the web app
@@ -43,7 +43,7 @@ The process is standard.
 
 __Acknowledgement__
 
-1. All the errors are mine. This repo is for practicing purpose only.
+1. All the errors are mine. This repo is for personal exercise purpose only.
 2. The instructions on how to use the web app is directly taken from Udacity.
 
 ## Author
